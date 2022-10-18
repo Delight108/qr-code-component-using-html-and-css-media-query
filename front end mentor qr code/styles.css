@@ -1,0 +1,140 @@
+:root{
+    --light-primary-color-container: hsl(0, 0%, 100%);
+    --Light-secondary-color: hsl(212, 45%, 89%);
+    --primary-dark-color: hsl(220, 15%, 55%);
+    --Dark-color: hsl(218, 44%, 22%);
+
+    --width-size-100: 375px;
+    --width-size-300: 1440px;
+
+    --fs-paragraph: 15px;
+    --ff: [Outfit];
+    --fw-100: 400;
+    --fw-300: 700;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border-radius: 2rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+body {
+    background-color: var(--Light-secondary-color);
+    box-sizing: border-box;
+    background-attachment: fixed;
+}
+
+.container {
+    display: inline;
+    border: none;
+    align-items: center;
+    max-width: 50%;
+}
+
+fieldset {
+    box-sizing: border-box;
+    background-color: var(--light-primary-color-container);
+    width: 640px;
+    height: 60rem;
+    border: none;
+    border-radius: 2rem;
+    margin-top: 50%;
+    margin-bottom: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p {
+    font-weight: var(--fw-200);
+    font-family: var(--ff);
+    font-size: 36px;
+    text-align: center;
+    color: var(--Light-secondary-color);
+}
+
+h2 {
+    font-family: var(--ff);
+    font-weight: var(--fw-300);
+    font-size: 50px;
+    color: var(--Dark-color);
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 750px){
+    
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    border-radius: 2rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+body{
+    background-color: var(--Light-secondary-color);
+    box-sizing: border-box;
+    background-attachment: fixed;
+}
+
+.container{
+    display: inline;
+    border: none;
+    align-items: center;
+    max-width: 50%;
+}
+
+fieldset{
+    box-sizing: border-box;
+    background-color: var(--light-primary-color-container);
+    width: 640px;
+    height: 60rem;
+    border: none;
+    border-radius: 2rem;
+    margin-top: 50%;
+    margin-bottom: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+p{
+    font-weight: var(--fw-200);
+    font-family: var(--ff);
+    font-size: 36px;
+    text-align: center;
+    color: var(--Light-secondary-color);
+}
+
+h2{
+    font-family: var(--ff);
+    font-weight: var(--fw-300);
+    font-size: 50px;
+    color: var(--Dark-color);
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+}
